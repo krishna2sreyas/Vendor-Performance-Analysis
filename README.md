@@ -1,9 +1,7 @@
 Vendor Performance Analysis
 📌 Project Overview
 This project analyzes vendor sales, purchasing, profitability, pricing, and inventory performance to identify key business opportunities and support data-driven vendor management decisions.
-
 The analysis combines SQL, Python, Pandas, statistical analysis, and Power BI to transform raw vendor and transaction data into actionable business insights.
-
 🎯 Business Objectives
 Evaluate vendor performance based on sales and profitability
 Identify top-performing vendors and brands
@@ -21,53 +19,42 @@ SciPy – Statistical analysis and hypothesis testing
 Power BI – Interactive dashboard and KPI reporting
 Git & GitHub – Version control
 🔄 Project Workflow
-Raw Transaction Data
-↓
-Data Ingestion into SQLite
-↓
-SQL-Based Vendor Summary
-↓
-Data Cleaning & Feature Engineering
-↓
-Exploratory Data Analysis
-↓
-Statistical & Business Analysis
-↓
-Power BI Dashboard
-↓
+Raw Transaction Data  
+↓  
+Data Ingestion into SQLite  
+↓  
+SQL-Based Vendor Summary  
+↓  
+Data Cleaning & Feature Engineering  
+↓  
+Exploratory Data Analysis  
+↓  
+Statistical & Business Analysis  
+↓  
+Power BI Dashboard  
+↓  
 Business Recommendations
-
 📊 Key Analyses
 1. Vendor & Brand Performance
 Analyzed total sales and identified the top-performing vendors and brands based on sales contribution.
-
 2. Promotional & Pricing Opportunities
 Identified brands with lower sales performance but higher profit margins, highlighting potential opportunities for targeted promotions, improved visibility, or pricing adjustments.
-
 3. Vendor Purchase Contribution
 Performed a Pareto-style analysis to understand each vendor's contribution to total purchasing expenditure.
-
 4. Inventory & Working Capital Analysis
 Analyzed stock turnover and unsold inventory to identify slow-moving inventory and quantify capital tied up in unsold stock.
-
 The analysis identified approximately $2.71M in unsold inventory capital.
-
 5. Bulk Purchasing & Pricing
 Segmented purchase quantities into Small, Medium, and Large order sizes to analyze the relationship between purchasing volume and unit purchase price.
-
 6. Statistical Validation
 Used a two-sample Welch's t-test to compare profit margins between top-performing and low-performing vendors.
-
 Result:
-
 T-Statistic: -17.6440
 P-Value: < 0.05
 Decision: Reject H₀
 This indicates a statistically significant difference in profit margins between the two vendor groups.
-
 📈 Power BI Dashboard
 The Power BI dashboard provides an interactive view of vendor performance using key KPIs and visualizations.
-
 Key KPIs
 KPI	Value
 Total Sales	$441.41M
