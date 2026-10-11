@@ -1,3 +1,4 @@
+Vendor Performance Analysis
 📌 Project Overview
 This project analyzes vendor sales, purchasing, profitability, pricing, and inventory performance to identify key business opportunities and support data-driven vendor management decisions.
 
